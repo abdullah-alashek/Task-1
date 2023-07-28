@@ -58,7 +58,7 @@ nav .menu ul li{
     width: 50%;
     height: 100vh;
     background-color: white;
-    transition: 1s;
+    transition: 0.4s;
     transform: translate(100%);
   }
   nav .menu.active{
