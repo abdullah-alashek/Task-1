@@ -1,0 +1,45 @@
+.getstart{
+  width: 70%;
+  margin: 100px auto;
+  background-color: #61dafb1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.getstart p{
+  font-size: 24px;
+  width: 80%;
+  line-height: 2rem;
+}
+.getstart p span{
+  color:#5bb9d3;
+  font-weight: bold;
+}
+.getstart button{
+  border: none;
+  background-color:darkblue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .getstart{
+    width: 85%;
+    margin: 100px auto;
+    background-color: #61dafb1f;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .getstart p{
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.8rem;
+    margin: 10px;
+  }
+}
