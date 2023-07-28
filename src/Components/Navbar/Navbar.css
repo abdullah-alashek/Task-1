@@ -45,7 +45,7 @@ nav .menu ul li{
 }
 @media screen and (max-width: 680px) {
   nav{
-    padding: 0px 50px;
+    padding: 0px 20px;
   }
   .dropmenu{
     display: block;
